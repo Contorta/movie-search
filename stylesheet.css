@@ -1,0 +1,30 @@
+img {
+    max-width: 100%;
+}
+
+.img_poster {
+    height: 360px; 
+}
+
+.item {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.spinner {
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    border: 10px dashed darkblue;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-top-color: rgb(47, 77, 211);
+    border-right-color: rgb(99, 135, 189);
+    border-bottom-color: #aaa;
+    animation: spin 500ms infinite linear;
+}
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
